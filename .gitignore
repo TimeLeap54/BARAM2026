@@ -1,0 +1,43 @@
+# Data
+02_data/raw/**
+!02_data/raw/
+!02_data/raw/**/
+!02_data/raw/**/.gitkeep
+02_data/interim/**
+!02_data/interim/
+!02_data/interim/**/
+!02_data/interim/**/.gitkeep
+02_data/processed/**
+!02_data/processed/
+!02_data/processed/**/
+!02_data/processed/**/.gitkeep
+*.parquet
+*.csv
+*.zip
+!05_experiments/ablation_results.csv
+
+# Models and outputs
+06_models/**
+!06_models/
+!06_models/**/
+!06_models/**/.gitkeep
+07_outputs/submissions/**
+!07_outputs/submissions/
+!07_outputs/submissions/**/
+!07_outputs/submissions/**/.gitkeep
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
